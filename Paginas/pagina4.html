@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/
+			TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- CABEÇALHO DA PÁGINA ------------- -->
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Título da Página</title>
+
+	<!-- ESTILOS EM CASCATA --------- -->
+	<link href="../css/estilo.css" rel="stylesheet" type="text/css" />
+	<style type="text/css">
+		td.rotulos {
+			text-align: right;
+			vertical-align: top;
+		}
+
+		input.campo,
+		select.campo,
+		textarea.campo {
+			background-color: #FFFFE0;
+			border-style: solid;
+			border-width: 1px;
+			border-color: #000000;
+		}
+
+		input.botao {
+			width: 100px;
+			background-color: #F0F8FF;
+			font-weight: bold;
+		}
+	</style>
+</head>
+
+<!-- CORPO DA PÁGINA ----------------- -->
+
+<body>
+	<div id="tudo">
+		<!-- CABEÇALHO DO SITE -->
+		<div id="cabecalho">
+			<h1>MEGA NET</h1>
+		</div>
+
+		<!-- BARRA DE NAVEGAÇÃO -->
+		<div id="barranavegacao">
+			<ul class="menu">
+				<li class="menu"><a class="menu" href="pagina1.html">CLIENTES </a></li>
+				<li class="menu"><a class="menu" href="pagina2.html">SERVIÇOS </a></li>
+				<li class="menu"><a class="menu" href="pagina3.html">RANKING </a></li>
+				<li class="menu"><a class="menu" href="pagina4.html">CONTATO </a></li>
+				<li class="menu"><a class="menu" href="pagina5.html">VISÃO </a></li>
+				<li class="menu"><a class="menu" href="../index.html">INÍCIO </a></li>
+			</ul>
+			&nbsp;
+		</div>
+
+		<!-- CONTEÚDO DO SITE -->
+		<div id="conteudo">
+			<h2>Venha para Mega Net você tambèm </h2>
+			<p>
+				Venha fazer parte desta família.
+				Realizando o seu cadastro você já tem acesso a 10 portfólios grátis, para já
+				ir tendo idéias, e também conhecer um puco mais desta empresa que está no
+				mercado a mais de 20 anos.
+			</p>
+			<h3>Cadastro</h3>
+			<table>
+				<tr>
+					<td class="rotulos">Nome/E-mail: </td>
+					<td><input class="campo" type="text" size="60" /></td>
+				</tr>
+				<tr>
+					<td class="rotulos">Login: </td>
+					<td><input class="campo" type="text" size="15" /></td>
+				</tr>
+				<tr>
+					<td class="rotulos">Usuário:</td>
+					<td>
+						<select class="campo">
+							<option selected="selected">Cliente</option>
+							<option>Colaborador</option>
+							<option>Supervisor</option>
+						</select>
+
+					</td>
+				</tr>
+				<tr>
+					<td class="rotulos">Mensagem:</td>
+					<td><textarea class="campo" cols="40" rows="10"></textarea></td>
+				</tr>
+				<tr>
+
+					<img src="../imagens/imma.jpg" alt="imagem" />
+
+					<td>&nbsp;</td>
+					<td>
+						<input class="botao" type="submit" value="enviar" />
+						<input class="botao" type="reset" value="limpar" />
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- RODAPÉ DO SITE -->
+		<div id="rodape">
+			Rua Messias Gonçalves, Nº355 Bairro Bom Jesus – Barretos/SP - (17) 3043-1900 / (17) 3323-2056
+		</div>
+	</div>
+</body>
+
+</html>
